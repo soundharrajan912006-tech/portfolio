@@ -1,0 +1,8 @@
+- [ ] Update CSS variables for new colors (white bg, darker pink #e91e63, black text #111111, soft shadows)
+- [ ] Update typography: larger bolder h1, letter-spacing on labels
+- [ ] Update navbar: pink underline for active
+- [ ] Redesign hero: left-align text, larger image on right, add pink accent rectangle behind profile
+- [ ] Redesign projects: big image cards with pink accent blocks, overlay titles, tech at bottom
+- [ ] Update about: add accent block for photo frame
+- [ ] Adjust responsive design: stacked mobile, full-width projects
+- [ ] Add minimal HTML for accent blocks in hero, projects, about
