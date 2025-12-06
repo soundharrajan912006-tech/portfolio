@@ -9,8 +9,12 @@
   --bg-page: #ffffff;           /* White background */
   --bg-section: #ffffff;        /* Pure white for sections */
   --bg-card: #ffffff;           /* White for cards */
+  --primary-blue: #00A8FF;      /* Primary blue */
+  --primary-pink: #E91E63;      /* Primary pink */
   --accent-pink: #e91e63;       /* Darker pink accent */
   --accent-soft: #fce4ec;       /* Very light pink for backgrounds */
+  --light-blue-bg: #E3F4FF;     /* Light blue background */
+  --lighter-blue-bg: #F5FAFF;   /* Lighter blue background */
   --text-main: #111111;         /* Black text */
   --text-muted: #6b7280;        /* Grey for secondary text */
   --border-subtle: #e5e7eb;     /* Light grey border */
@@ -51,7 +55,7 @@ body {
 }
 
 .section-alt {
-  background-color: #f3f4f6;
+  background-color: var(--lighter-blue-bg);
 }
 
 .section-title {
@@ -208,8 +212,8 @@ nav {
 /* Secondary Button - White background, pink border and text */
 .btn.secondary {
   background-color: #ffffff;
-  color: var(--accent-pink);
-  border: 2px solid var(--accent-pink);
+  color: var(--primary-pink);
+  border: 2px solid var(--primary-pink);
 }
 
 .btn.secondary:hover {
@@ -235,7 +239,7 @@ nav {
 .hero {
   padding-top: 100px;
   padding-bottom: 80px;
-  background: #ffd6e7;
+  background: var(--light-blue-bg);
 }
 
 .hero-inner {
@@ -548,7 +552,7 @@ nav {
   right: -50px;
   width: 200px;
   height: 200px;
-  background-color: var(--accent-pink);
+  background-color: var(--light-blue-bg);
   border-radius: 50%;
   opacity: 0.1;
   z-index: 1;
